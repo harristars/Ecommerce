@@ -2,7 +2,6 @@
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harristars.github.io/Ecommerce/", 
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
     "@sendgrid/mail": "^8.1.5",
@@ -60,9 +59,7 @@
     "client": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts eject",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
